@@ -107,7 +107,7 @@ int main() {
     std::cout << "K-means started..." << std::endl;
     KMeansResult result = kmeans(data, K, 100);
 
-    std::cout << "Done after" << result.iterationsUsed << " iterations.\n\n";
+    std::cout << "Done after: " << result.iterationsUsed << " iterations.\n\n";
 
     std::cout << "Centroids:\n";
     for (size_t k = 0; k < result.centroids.size(); ++k) {
